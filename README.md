@@ -78,3 +78,7 @@ Once the pipeline is up and running, you can access and interact with each compo
 - **Kafka Control Center**: View streams and topics at http://localhost:9021
 - **Cassandra**: Use cqlsh or a similar tool to query and interact with the stored data.
 
+## Acknowledgements
+- Thank you to 'randomuser.me' API for providing simulated user data.
+- Thank you for to airscholor for this project idea.
+

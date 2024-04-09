@@ -58,8 +58,23 @@ To set up the pipeline, follow these steps:
    git clone https://github.com/<your-username>/<your-repository>.git
    cd <your-repository>
    ```
-Build the Docker containers:
 
-bash
+2. Create a Python virtual environment
+   ```bash
+   python3.10 -m venv <env_name>
+   ```
+   Keep in mind. Airflow might not work Python versions 3.9 and below.
 
+3. Build/launch the Docker containers
+   ```bash
+   docker compose up (-d)
+   ```
+   -d to run in detached mode
+
+## Usage
+Once the pipeline is up and running, you can access and interact with each component:
+
+- **Airflow Web Interface**: Monitor and manage the workflow at http://localhost:8080
+- **Kafka Control Center**: View streams and topics at http://localhost:9021
+- **Cassandra**: Use cqlsh or a similar tool to query and interact with the stored data.
 

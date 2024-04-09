@@ -11,7 +11,7 @@ default_args = {
 def format_data(res):
     data = {}
     location = res['location']
-    # data['id'] = uuid.uuid4()
+    data['id'] = uuid.uuid4()
     data['first_name'] = res['name']['first']
     data['last_name'] = res['name']['last']
     data['gender'] = res['gender']

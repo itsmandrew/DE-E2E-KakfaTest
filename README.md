@@ -81,4 +81,5 @@ Once the pipeline is up and running, you can access and interact with each compo
 ## Acknowledgements
 - Thank you to 'randomuser.me' API for providing simulated user data.
 - Thank you for to airscholor for this project idea.
+- Etc.
 
